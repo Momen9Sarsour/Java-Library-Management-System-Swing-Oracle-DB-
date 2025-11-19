@@ -1,9 +1,8 @@
 
 ---
 
-# 📌 **4) README – Java Library Management System (Swing + Oracle DB)**
+# 📌 ** Java Library Management System (Swing + Oracle DB)**
 
-```md
 # Library Management System – Java (Swing + Oracle Database)
 
 A complete library system built using Java Swing and Oracle SQL.  
