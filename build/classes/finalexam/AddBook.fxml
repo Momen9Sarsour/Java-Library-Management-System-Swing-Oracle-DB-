@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: f3f7fa;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalexam.AddBookController">
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="355.0">
+         <children>
+            <Label layoutX="32.0" layoutY="136.0" text="Title">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="IDTextField" layoutX="162.0" layoutY="95.0" />
+            <Label layoutX="34.0" layoutY="169.0" text="Author">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="AuthorTextField" layoutX="162.0" layoutY="166.0" />
+            <Label layoutX="33.0" layoutY="206.0" text="Publisher">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="PublisherTextField" layoutX="162.0" layoutY="203.0" />
+            <Label layoutX="34.0" layoutY="98.0" text="Id num">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="TitleTextField" layoutX="162.0" layoutY="133.0" />
+            <Label layoutX="32.0" layoutY="245.0" text="Year of publication">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="32.0" layoutY="287.0" text="Number of copies">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="NumOFCopTextfield" layoutX="161.0" layoutY="284.0" />
+            <Label fx:id="FinancailValue" layoutX="32.0" layoutY="330.0" text="Financial value">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="FinancailTextField" layoutX="161.0" layoutY="327.0" />
+            <Button fx:id="AddBookBotton" layoutX="29.0" layoutY="406.0" mnemonicParsing="false" onAction="#addBook" prefHeight="28.0" prefWidth="281.0" style="-fx-background-color: E2B041;" text="Add" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="BackAddBookBtn" layoutX="29.0" layoutY="443.0" mnemonicParsing="false" onAction="#backDash" prefHeight="28.0" prefWidth="281.0" style="-fx-background-color: E2B041;" text="Back" textFill="WHITE" />
+            <Label layoutX="106.0" layoutY="29.0" text="Book  information">
+               <font>
+                  <Font name="Ebrima" size="18.0" />
+               </font>
+            </Label>
+            <DatePicker fx:id="YearOFPublicTextField1" layoutX="161.0" layoutY="242.0" prefHeight="25.0" prefWidth="149.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="355.0" prefHeight="500.0" prefWidth="246.0">
+         <children>
+            <ImageView fx:id="AddBookImageV" fitHeight="266.0" fitWidth="227.0" layoutX="6.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Images/001-storytelling.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,9 @@
+
+sqlplus / as sysdba
+alter session set "_oracle_script" = true;
+create user الاسم identified by كلمة السر;
+grant all privileges to االاسم;
+
+
+library  الاسم
+1123     كلمة السر
